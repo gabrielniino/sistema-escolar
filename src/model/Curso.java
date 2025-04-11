@@ -11,7 +11,7 @@ public class Curso {
     /**
      * Construtor do curso.
      * 
-     * @param nome      Nome do curso.
+     * @param nome       Nome do curso.
      * @param capacidade Número máximo de alunos.
      */
     public Curso(String nome, int capacidade) {
@@ -38,7 +38,7 @@ public class Curso {
     public void listarAlunos() {
         System.out.println("Curso: " + nome);
         for (int i = 0; i < quantidade; i++) {
-            System.out.println(" - Aluno: " + alunos[i].getNome());
+            alunos[i].exibirDados();
         }
     }
 }

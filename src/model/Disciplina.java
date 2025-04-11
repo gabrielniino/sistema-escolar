@@ -19,9 +19,9 @@ public class Disciplina {
     }
 
     /**
-     * Exibe o nome da disciplina e do professor responsável.
+     * Exibe o nome da disciplina e os dados completos do professor responsável.
      */
     public void exibir() {
-        System.out.println("Disciplina: " + nome + " | Professor: " + professor.getNome());
+        System.out.println("Disciplina: " + nome + " | Professor: " + professor.exibirDadosProfessor());
     }
 }
